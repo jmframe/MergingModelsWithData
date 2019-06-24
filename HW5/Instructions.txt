@@ -1,0 +1,32 @@
+Dear CEE - 298:
+
+The last homework is due on Wednesday, next week.
+
+It will consist of programming the different model averaging methods in
+the attached paper. All information is available in the paper to implement
+the various methods. Try to implement as much as you can; I understand
+that BMA is particularly difficult to do, but try to resolve this as much
+as you can. You have your own Differential Evolution and MCMC code to
+resolve the weights of the different models for the different model
+averaging methods. I will likely curve this last homework.
+
+Info required to the do homework:
+
+I am attaching a data set (data.txt) of ensemble streamflow forecasts of
+eight different conceptual rainfal - runoff models. The actual
+measurements are contained in the file Y.txt;
+
+I am also attaching a paper in 2007 that describes the different models
+(also in the example of the attached slides discussed in class). The first
+column is the abc model the last column of data is the SAC-SMA model.
+Eight years was used for calibration (n = 8 * 365, in the model averaging
+paper). Use the first 8 years for calibration of the weights and the last
+part of the data set to evaluate the performance of the model averaging
+method; the Root Mean Square Error of the mean forecast.
+
+Write a code that reports the weights for each method and the
+corresponding quality of the fit of the prediction of the model averaging
+method for the calibration and evaluation period.
+
+Good luck,
+Jasper
